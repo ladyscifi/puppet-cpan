@@ -22,7 +22,7 @@ $CPAN::Config = {
   'halt_on_failure' => q[0],
   'histfile' => q[/root/.cpan/histfile],
   'histsize' => q[100],
-  'http_proxy' => q[],
+  'http_proxy' => q[<%=@proxy%>],
   'inactivity_timeout' => q[0],
   'index_expire' => q[1],
   'inhibit_startup_message' => q[0],
